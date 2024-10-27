@@ -4,6 +4,7 @@ A simple port scanner written in python.
 
 ## Usage
 ```
+pip3 install icecream
 python3 main.py
 ```
 
