@@ -15,7 +15,7 @@ def portScanner(port):
         result = s.connect_ex((localhost, port))
 
         if result == 0:
-            ic(f"Port {port} is open")
+            ic(f"Port {port} is open") # you can use print also
         else:
             pass
 
